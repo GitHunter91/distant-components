@@ -27,7 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header setLoggedInAs={this.state.loggedInAs} setIsCreditCardHolder={this.state.isCreditCardHolder}/>
         <MainContent />
         <Footer />
       </div>
